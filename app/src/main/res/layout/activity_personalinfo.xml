@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersonalinfoActivity"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:src="@drawable/salasar_logo_png_new"
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+
+
+            />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:cardBackgroundColor="@color/cardColor"
+            app:cardCornerRadius="20dp"
+
+
+
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="20dp"
+
+                    android:background="@drawable/edittext"
+                    android:drawableLeft="@drawable/patient_name"
+                    android:drawablePadding="30dp"
+                    android:paddingLeft="20dp"
+
+                    android:hint="@string/patient_name"
+
+                    android:textColorHint="@android:color/white"
+
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/edittext"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:drawableLeft="@drawable/birthday"
+
+                    android:hint="11/2/11"
+                    android:textColorHint="@android:color/white"
+                    android:drawablePadding="20dp"
+                    android:paddingLeft="20dp"
+
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edittext"
+                    android:drawableLeft="@drawable/age"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+
+                    android:hint="22"
+                    android:textColorHint="@android:color/white"
+                    android:drawablePadding="20dp"
+                    android:paddingLeft="20dp"
+
+                    />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edittext"
+                    android:drawableLeft="@drawable/sex"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+
+                    android:hint="Male"
+                    android:textColorHint="@android:color/white"
+                    android:drawablePadding="20dp"
+                    android:paddingLeft="20dp"
+
+                    />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+
+                    android:background="@drawable/edittext"
+                    android:drawableLeft="@drawable/dn"
+                    android:drawablePadding="20dp"
+                    android:hint="12 Aug,2019"
+                    android:textColorHint="@android:color/white"
+                    android:paddingLeft="20dp"
+
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edittext"
+                    android:drawableLeft="@drawable/addition_date"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+
+                    android:hint="12 Aug,2019"
+                    android:textColorHint="@android:color/white"
+                    android:drawablePadding="20dp"
+                    android:paddingLeft="20dp"
+
+                    />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edittext"
+                    android:drawableLeft="@drawable/relationship"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="30dp"
+
+                    android:hint="e.g. Single"
+                    android:textColorHint="@android:color/white"
+                    android:drawablePadding="20dp"
+                    android:paddingLeft="20dp"
+
+                    />
+
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Continue"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_drawable"
+            ></Button>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

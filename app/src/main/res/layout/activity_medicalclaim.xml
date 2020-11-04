@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Medicalclaim"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <ImageView
+        android:src="@drawable/salasar_logo_png_new"
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardBackgroundColor="@color/cardColor"
+        app:cardCornerRadius="20dp"
+
+        android:id="@+id/Card"
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edittext"
+                android:drawableLeft="@drawable/patient_name"
+                android:drawablePadding="10dp"
+                android:paddingLeft="25dp"
+
+                android:hint=" Patient_name"
+
+                android:textColorHint="@android:color/white"
+
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/edittext"
+                 android:drawableLeft="@drawable/intimate_date"
+                android:layout_margin="10dp"
+                android:hint="Intimation date"
+                android:textColorHint="@android:color/white"
+                android:drawablePadding="10dp"
+                android:paddingLeft="15dp"
+
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext"
+                android:drawableLeft="@drawable/date_of_admission"
+                android:layout_margin="10dp"
+                android:hint="Date of Admission"
+                android:textColorHint="@android:color/white"
+                android:drawablePadding="10dp"
+                android:paddingLeft="20dp"
+
+                />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext"
+                android:drawableLeft="@drawable/date_of_discharge"
+               android:layout_margin="10dp"
+                android:hint="Date of Discharge"
+                android:textColorHint="@android:color/white"
+                android:drawablePadding="10dp"
+                android:paddingLeft="20dp"
+
+                />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext"
+                android:drawableLeft="@drawable/amount_claimed"
+               android:layout_margin="10dp"
+                android:hint="Amount claimed"
+                android:textColorHint="@android:color/white"
+                android:drawablePadding="10dp"
+                android:paddingLeft="20dp"
+
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext"
+                android:drawableLeft="@drawable/amount_approved"
+               android:layout_margin="10dp"
+                android:hint="Amount approved"
+                android:textColorHint="@android:color/white"
+                android:drawablePadding="10dp"
+                android:paddingLeft="20dp"
+
+                />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext"
+                 android:drawableLeft="@drawable/status"
+                android:layout_margin="10dp"
+                android:hint="Status"
+                android:textColorHint="@android:color/white"
+                android:drawablePadding="5dp"
+                android:paddingLeft="20dp"
+
+                />
+
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="SIGN IN"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_drawable"
+            ></Button>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="180dp"
+        android:src="@drawable/nurse"
+        android:scaleType="fitXY"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+
+        />
+</FrameLayout>

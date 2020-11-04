@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmationActivity"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    >
+
+<LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+    >
+       <ImageView
+         android:src="@drawable/salasar_logo_png_new"
+         android:layout_width="match_parent"
+         android:layout_height="80dp"
+
+        />
+  <androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    app:cardBackgroundColor="@color/cardColor"
+      >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           >
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:layout_marginBottom="10dp"
+               android:layout_marginLeft="30dp"
+
+               android:gravity="start"
+               android:text="Name"
+               android:textColor="@color/buttonColor"
+           />
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:layout_marginLeft="30dp"
+               android:layout_marginRight="30dp"
+               android:background="@drawable/edittext"
+
+               android:hint="Mr.Person"
+               android:paddingLeft="20dp"
+               android:drawablePadding="30dp"
+
+               android:textColorHint="@android:color/white"
+
+               />
+
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:layout_marginBottom="10dp"
+               android:layout_marginLeft="30dp"
+
+               android:gravity="start"
+               android:text="Date of Birth"
+               android:textColor="@color/buttonColor"
+
+               />
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:layout_marginLeft="30dp"
+               android:layout_marginRight="30dp"
+               android:background="@drawable/edittext"
+               android:hint="11/2/11"
+               android:textColorHint="@android:color/white"
+               android:paddingLeft="20dp"
+               android:drawablePadding="30dp"
+
+               />
+
+
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:layout_marginBottom="10dp"
+               android:layout_marginLeft="30dp"
+
+               android:gravity="start"
+               android:text="Age"
+               android:textColor="@color/buttonColor"
+               />
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:layout_marginLeft="30dp"
+               android:layout_marginRight="30dp"
+               android:background="@drawable/edittext"
+               android:hint="22"
+               android:textColorHint="@android:color/white"
+               android:paddingLeft="20dp"
+               android:drawablePadding="30dp"
+
+
+               />
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:layout_marginBottom="10dp"
+               android:layout_marginLeft="30dp"
+
+               android:gravity="start"
+               android:text="Sex"
+               android:textColor="@color/buttonColor"
+               />
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:layout_marginLeft="30dp"
+               android:layout_marginRight="30dp"
+               android:background="@drawable/edittext"
+               android:hint="Male"
+               android:textColorHint="@android:color/white"
+               android:paddingLeft="20dp"
+               android:drawablePadding="30dp"
+
+
+               />
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:layout_marginBottom="10dp"
+               android:layout_marginLeft="30dp"
+
+               android:gravity="start"
+               android:text="Relationships"
+               android:textColor="@color/buttonColor"
+               />
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:layout_marginLeft="30dp"
+               android:layout_marginRight="30dp"
+               android:background="@drawable/edittext"
+               android:hint="Single"
+               android:textColorHint="@android:color/white"
+               android:paddingLeft="20dp"
+               android:drawablePadding="30dp"
+
+
+               />
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:layout_marginBottom="10dp"
+               android:layout_marginLeft="30dp"
+
+               android:gravity="start"
+               android:text="Date of Request"
+               android:textColor="@color/buttonColor"
+               />
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:layout_marginLeft="30dp"
+               android:layout_marginRight="30dp"
+               android:background="@drawable/edittext"
+               android:hint="12 Aug,2019"
+               android:textColorHint="@android:color/white"
+               android:paddingLeft="20dp"
+               android:drawablePadding="30dp"
+
+
+               />
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:layout_marginBottom="10dp"
+               android:layout_marginLeft="30dp"
+               android:gravity="start"
+               android:text="Addition/Deletion"
+               android:textColor="@color/buttonColor"
+               />
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:layout_marginLeft="30dp"
+               android:layout_marginRight="30dp"
+               android:background="@drawable/edittext"
+               android:hint="12 Aug,2019"
+               android:textColorHint="@android:color/white"
+               android:paddingLeft="20dp"
+               android:drawablePadding="30dp"
+
+               />
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:layout_marginBottom="10dp"
+               android:layout_marginLeft="30dp"
+
+               android:gravity="start"
+               android:text="Status"
+               android:textColor="@color/buttonColor"
+               />
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="30dp"
+               android:layout_marginLeft="30dp"
+               android:layout_marginRight="30dp"
+               android:layout_marginBottom="30dp"
+               android:background="@drawable/edittext"
+               android:hint="Status"
+               android:textColorHint="@android:color/white"
+               android:paddingLeft="20dp"
+               android:drawablePadding="30dp"
+
+               />
+
+
+
+
+
+
+       </LinearLayout>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:text="Continue"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_drawable"
+
+        ></Button>
+
+
+
+
+
+
+
+</LinearLayout>
+
+    </FrameLayout>

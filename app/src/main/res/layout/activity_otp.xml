@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".otp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type Your OTP"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+
+
+     />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Enter the Verification Code we just sent to your phone number  :)"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"
+
+
+    />
+    <com.chaos.view.PinView
+        android:id="@+id/firstPinView"
+        style="@style/PinWidget.PinView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        android:inputType="numberPassword"
+        android:itemBackground="@color/cardColor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cursorColor="@color/buttonColor"
+        app:cursorWidth="10dp"
+        app:hideLineWhenFilled="true"
+        app:itemCount="4"
+        app:itemHeight="60dp"
+        app:itemRadius="0dp"
+        app:itemSpacing="0dp"
+        app:itemWidth="60dp"
+        app:lineColor="@color/buttonColor"
+        app:lineWidth="2dp"
+        app:viewType="rectangle"
+        android:layout_marginTop="50dp"></com.chaos.view.PinView>
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:text="Continue"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_drawable"
+
+        ></Button>
+
+
+</LinearLayout>

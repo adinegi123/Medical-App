@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PAClaimsActivity"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+    >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/salasar_logo_png_new"
+            />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardBackgroundColor="@color/cardColor"
+
+
+
+
+    >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="50dp"
+
+                android:gravity="start"
+                android:text="Claimant Name"
+                android:textColor="@color/buttonColor"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/edittext"
+                android:padding="10dp"
+
+
+                />
+
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="50dp"
+
+                android:gravity="start"
+                android:text="Intimation Name"
+                android:textColor="@color/buttonColor"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+
+                android:layout_marginRight="30dp"
+
+                android:background="@drawable/edittext"
+
+                android:padding="10dp"
+
+                />
+
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="50dp"
+
+                android:gravity="start"
+                android:text="Date of Accident"
+                android:textColor="@color/buttonColor"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+
+                android:layout_marginRight="30dp"
+
+                android:background="@drawable/edittext"
+
+                android:padding="10dp"
+
+                />
+
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="50dp"
+
+                android:gravity="start"
+                android:text="Amount Claimed"
+                android:textColor="@color/buttonColor"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+
+                android:layout_marginRight="30dp"
+
+                android:background="@drawable/edittext"
+
+                android:padding="10dp"
+
+                />
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="50dp"
+
+                android:gravity="start"
+                android:text="Amount Approved"
+                android:textColor="@color/buttonColor"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+
+                android:layout_marginRight="30dp"
+
+                android:background="@drawable/edittext"
+
+                android:padding="10dp"
+
+                />
+
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="50dp"
+
+                android:gravity="start"
+                android:text="Status"
+                android:textColor="@color/buttonColor"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/buttonColor"
+                android:layout_marginRight="30dp"
+               android:layout_marginBottom="20dp"
+                android:background="@drawable/edittext"
+                android:padding="10dp"
+
+                />
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Continue"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_drawable"
+
+            ></Button>
+
+    </LinearLayout>
+    </FrameLayout>

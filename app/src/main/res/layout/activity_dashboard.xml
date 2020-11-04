@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard"
+    android:layout_weight="100"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imageDash"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="35"
+        android:src="@drawable/image_dashboard"
+        android:scaleType="fitXY"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="65"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+
+
+
+      >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:src="@drawable/personal_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Personal Info"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+
+
+
+                    />
+
+            </LinearLayout>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+
+
+                <ImageView
+                    android:id="@+id/im2"
+                    android:src="@drawable/dependent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dependent Info"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+              </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/white"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center">
+               <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+            <ImageView
+                android:src="@drawable/medical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medical Claims"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                />
+               </LinearLayout>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+            <ImageView
+                android:src="@drawable/paclaims"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PA Claims"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                />
+             </LinearLayout>
+
+
+
+
+     </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/white"
+            />
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_weight="1"
+     android:orientation="horizontal"
+     android:gravity="center"
+
+
+     >
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_weight="1">
+
+     <ImageView
+         android:src="@drawable/adddependent"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         />
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Add Dependent"
+         android:textColor="@android:color/white"
+         android:textStyle="bold"
+         android:layout_gravity="center_horizontal"
+         />
+         </LinearLayout>
+     <View
+         android:layout_width="1dp"
+         android:layout_height="match_parent"
+         android:background="@android:color/white"
+         />
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_weight="1">
+     <ImageView
+         android:src="@drawable/viewcon"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         />
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="View Confirmation"
+         android:textColor="@android:color/white"
+         android:textStyle="bold"
+         android:layout_gravity="center_horizontal"
+         />
+
+     </LinearLayout>
+
+
+ </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
